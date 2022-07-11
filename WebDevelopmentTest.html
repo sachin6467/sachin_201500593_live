@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    <script>
+function myFunction() 
+{
+
+    const Label1 = document.createElement("label");
+    Label1.innerHTML = "Sachin Gahlot";
+
+    
+    const Label2 = document.createElement("label");
+    Label2.innerHTML = "201500593";
+
+    
+    const Label3 = document.createElement("label");
+    Label3.innerHTML = "GLA University, Mathura";
+
+    
+    const Label4 = document.createElement("label");
+    var date=new Date();
+    Label4.innerHTML = date.getDate() + "-" + "0" + (date.getMonth()+1)+ "-" + date.getFullYear();
+
+    document.getElementById("hello").appendChild(Label1);
+    document.getElementById("hello").appendChild(Label2).style.paddingLeft="200px";
+    
+    document.getElementById("hello").appendChild(Label3).style.paddingLeft="200px";
+    document.getElementById("hello").appendChild(Label4).style.paddingLeft="170px";
+
+}
+  </script>
+  <style>
+  body{
+    overflow: hidden;
+  }
+  .navbar-nav > li
+  {
+  padding-left:30px;
+  padding-right:5px;
+  padding-top: 30px;
+  font-size: 20px;
+  color: gray;
+}
+.navbar-nav > li  >a
+{
+  color: gray;
+}
+
+  </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body onload="myFunction()">
+       <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="background-color:rgba(249,68,108,255);color: white;padding: 50px;font-size: 50px">R</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="#" style="color:rgba(249,68,108,255)">Home</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Elements</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+            <li style="padding-left:350px;">
+                <a href="#" style="color:rgba(249,68,108,255);background-color: white;">Buy Rogan -></a>
+                </li>               
+          </ul>
+        </div>
+      </nav>
+      </div>     
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="padding-left:70px">
+    <span style="color:rgba(249,68,108,255);font-size:20px">70% Off</span><span style="font-size:20px"> for first 3 months</span>  
+  </div>
+<br>
+<div style="padding-left:70px;font-size: 70px;">
+    <div class="row">
+    <div class="col-md-5">
+        Digital Agency<br>
+        with Excellence<br>
+        Services.
+    </div>
+    <div class="col-md-6">
+        <img src="images.jpg" width="600" height="300" style="margin-left:100px;">
+    </div>
+  </div>
+    </p>
+</div>
+<p style="color:rgba(169,170,172,255);padding-left:70px;font-size: 23px;" >The 3 golden rules professional graphic designer don't</p>
+<p id="hello" style="font-size:25px; padding-left: 70px;"></p>
+</body>
+</html>
